@@ -6,4 +6,4 @@
 - It has three main parts -> 
     * The core intefaces
     * The implementations of the interfaces( Concret Classes)
-    * Static Utility Methods associated with Collections to do certain opertaions like insertion or deletion
+    * Static Utility Methods associated with Collections to do certain operations like insertion or deletion
