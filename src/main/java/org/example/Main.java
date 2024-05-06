@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.genericlist.OurGenericList;
+import org.example.lists.ArrayListExamples;
 
 import java.util.Iterator;
 
@@ -21,6 +22,9 @@ public class Main {
         for (int item : list) {
             System.out.println(item);
         }
+
+        System.out.println("---------------------------------ArrayList -------------------------------------------");
+        ArrayListExamples aList = new ArrayListExamples();
 
         System.out.println("Ending...");
     }
