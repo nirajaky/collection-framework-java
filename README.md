@@ -6,7 +6,7 @@
 - It has three main parts -> 
     * The core intefaces
     * The implementations of the interfaces( Concret Classes)
-    * Static Utility Methods associated with Collections to do certain opertaions like insertion or deletion
+    * Static Utility Methods associated with Collections to do certain operations like insertion or deletion
 
 - Collection calls itself as -> I am Iterable. Means if any concret class is implementing an Collection it will have to    implement the methods defined in Iterable( hasNext() & next())
 
@@ -33,3 +33,5 @@
 - List<Integer> is correct
 - Since Collection Framework has to deal with Reference type Object creation to provide utility classes and methods,
 - So, It accepts only Wrapper class as template parameters
+
+
