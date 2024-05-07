@@ -27,6 +27,48 @@
     * boolean addAll(int index, Collection<? extends E> c)
     * E remove(int index)
 
+### ListIterator
+- Can Iterate in both the direction.
+- ListIterator extends Iterater (interface)
+- Iterrator has next() and hasNext() method. 
+- In addition it has : pervious() and hasPrevious() methods.
+
+## Queue
+- Queue interface extends Collection interface with the following methods:
+    * boolean add(E element)    // It throws IllegalArgumentException when Queue is full
+    * boolean offer(E element)  // If does not throw any Exception, So we use this often instead of add()
+    * E remove()
+    * E poll()                  // Removes first element without any exceptions, will return null - If no element present
+    * E peek()                  // Get the first Element (FIFO), If no items present then null is returned
+    * E element()               // Get the first Element (FIFO), If no items present then Exception is thrown
+
+## Deque
+- Deque interface extends Queue interface that allows double operation.
+- Insertion and Deletion can be done at both the ends.
+- Both FIFO and LIFO operation are supported in Deque.
+- Methods ->
+- Adding Element
+    * boolean offerFirst(E element)
+    * boolean offerLast(E element)    // Equivalent to offer() of Queue
+    * void addFirst(E element)
+    * void addLast(E element)         // Equivalent to add() of Queue
+    * void push(E element)            // Similar to addFirst()
+- Removing Element
+    * E pollFirst()
+    * E pollLast()
+    * E removeFirst()
+    * E removeLast()
+    * E pop()                          // Similar to removeFirst()
+- Examining Element
+    * E peekFirst()
+    * E peekLast()
+    * E getFirst()                     // Equivalent to element() of Queue
+    * E getLast()
+
+## peek() = View/Get
+## offer() = add
+## poll()  = remove
+
 ## Generic
 - Generic allows only Reference/Wrapper Class, It does not support primitive type
 - Means List<int> is wrong

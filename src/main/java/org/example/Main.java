@@ -2,6 +2,10 @@ package org.example;
 
 import org.example.genericlist.OurGenericList;
 import org.example.lists.ArrayListExamples;
+import org.example.lists.LinkedListExamples;
+import org.example.queues.ArrayDequeExamples;
+import org.example.queues.QueueExamples;
+import org.example.queues.StackExample;
 
 import java.util.Iterator;
 
@@ -23,8 +27,20 @@ public class Main {
             System.out.println(item);
         }
 
-        System.out.println("---------------------------------ArrayList -------------------------------------------");
+        System.out.println("--------------------------------- ArrayList -------------------------------------------");
         ArrayListExamples aList = new ArrayListExamples();
+
+        System.out.println("--------------------------------- LinkedList ------------------------------------------");
+        LinkedListExamples lList = new LinkedListExamples();
+
+        System.out.println("---------------------------------- Queue FIFO ----------------------------------------------");
+        QueueExamples queueExamples = new QueueExamples();
+
+        System.out.println("---------------------------------- Stack LIFO ----------------------------------------------");
+        StackExample stackExample = new StackExample();
+
+        System.out.println("---------------------------------- ArrayDeque ----------------------------------------------");
+        ArrayDequeExamples arrayDequeExamples = new ArrayDequeExamples();
 
         System.out.println("Ending...");
     }
