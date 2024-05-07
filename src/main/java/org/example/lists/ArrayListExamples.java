@@ -5,6 +5,8 @@ import java.util.List;
 
 public class ArrayListExamples {
 
+    // It only implements List
+
     // It is a dynamic array, which grows its size automatically
     // Internally ArrayList also uses normal array with some default size. 
     // Once that size is reached its content is copied and assigned to new Array. Now that new array reference is used.
