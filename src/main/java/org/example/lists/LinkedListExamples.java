@@ -37,6 +37,8 @@ public class LinkedListExamples {
 
         // toArray() converts List to array
         // in parameter, we can pass any size less than List size. Compiler will automatically recognise the size for array
+
+        // Array --> List  =>  List<> al = Arrays.asList(arr)
         Integer[] arr = lk.toArray(new Integer[0]);
         System.out.println("Convert list to normal java array : " );
         for (int x : arr) {

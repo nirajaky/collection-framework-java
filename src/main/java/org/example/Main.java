@@ -4,6 +4,7 @@ import org.example.genericlist.OurGenericList;
 import org.example.lists.ArrayListExamples;
 import org.example.lists.LinkedListExamples;
 import org.example.queues.ArrayDequeExamples;
+import org.example.queues.PriorityQueueExamples;
 import org.example.queues.QueueExamples;
 import org.example.queues.StackExample;
 
@@ -41,6 +42,9 @@ public class Main {
 
         System.out.println("---------------------------------- ArrayDeque ----------------------------------------------");
         ArrayDequeExamples arrayDequeExamples = new ArrayDequeExamples();
+
+        System.out.println("---------------------------------- Priority Queue ----------------------------------------------");
+        PriorityQueueExamples priorityQueueExamples = new PriorityQueueExamples();
 
         System.out.println("Ending...");
     }
