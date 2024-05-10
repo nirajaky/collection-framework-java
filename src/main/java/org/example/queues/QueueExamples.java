@@ -7,6 +7,7 @@ public class QueueExamples {
     // Queue = FIFO
     // Stack = LIFO
 
+
     // Since LinkedList implements Deque interface, So, it can act as FIFO and LIFO
     // So, for FIFO we can use LinkedList concrete classes as it has all the Queue interface methods
     public QueueExamples() {

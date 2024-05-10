@@ -25,7 +25,7 @@ public class ArrayListExamples {
         aList.set(1, 201);
         System.out.println("After Setting at index 1 : " + aList);
 
-        // ArrayList takes a constructor , where we can pass any Collection
+        // ArrayList or any utility class takes a constructor , where we can pass any Collection
         List<Integer> aList2 = new ArrayList<>(aList);                      // a deep copy of aList
         aList2.add(103);
         aList2.add(104);

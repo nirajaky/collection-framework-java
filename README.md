@@ -68,6 +68,7 @@
 ## peek() = View/Get
 ## offer() = add
 ## poll()  = remove
+## peek() gives last element in case of Stack and gives First element in case of Queue
 
 ## Generic
 - Generic allows only Reference/Wrapper Class, It does not support primitive type
