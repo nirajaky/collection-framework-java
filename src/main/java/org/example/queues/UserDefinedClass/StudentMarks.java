@@ -1,5 +1,7 @@
 package org.example.queues.UserDefinedClass;
 
+import java.util.Objects;
+
 public class StudentMarks implements Comparable<StudentMarks> {
 
     private int maths;
@@ -24,6 +26,19 @@ public class StudentMarks implements Comparable<StudentMarks> {
                 "maths=" + maths +
                 ", physics=" + physics +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        StudentMarks that = (StudentMarks) o;
+        return maths == that.maths && physics == that.physics;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(maths, physics);
     }
 
     @Override
