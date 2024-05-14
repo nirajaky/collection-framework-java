@@ -70,6 +70,12 @@
 ## poll()  = remove
 ## peek() gives last element in case of Stack and gives First element in case of Queue
 
+## Sets
+a.containsAll(b) - subset
+a.addAll(b)      - union
+a.removeAll(b)   - difference
+a.retainAll(b)   - intersection
+a.clear()        - empty set
 
 ## Generic
 - Generic allows only Reference/Wrapper Class, It does not support primitive type
@@ -78,4 +84,27 @@
 - Since Collection Framework has to deal with Reference type Object creation to provide utility classes and methods,
 - So, It accepts only Wrapper class as template parameters
 
+
+## Map
+- Map interface has no connection with Collection interface
+- Map stores data in Key-Value pair
+- Map does not allow duplicate keys
+- We can traverse through Map with 
+    * Map.Entry<K, V>
+    * This Map.Entry converts our Map into Set, which helps us to traverse through our elements
+
+- Map methods
+    * Object put(Key k, V value)       // It returns the old value if associated for that key else null
+    * Object get(Object key)           // Returns value else null
+    * Object remove(Object key)        // removes the element for the particular key
+    * boolean containsKey(Object key)
+    * boolean containsValue(Object value)
+    * int size()
+    * boolean isEmpty()
+- Map bulk operation methods
+    * void putAll()
+    * void clear()
+    * Set<K> keySet()
+    * Collection(V) values()
+    * Set<Map.Entry<K, V>> entrySet()
 
