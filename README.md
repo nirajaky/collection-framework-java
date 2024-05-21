@@ -108,3 +108,15 @@ a.clear()        - empty set
     * Collection(V) values()
     * Set<Map.Entry<K, V>> entrySet()
 
+### Interface and Concret class
+
+Map.Entry    ------->       Map      -------->   SortedMap    -------> NavigableMap
+                         |       |                                         |
+                         v       v                                         |
+                     HashMap   Hashtable                                   v
+                        |      (thread-safe class)                      TreeMap
+                        |
+                        v
+                    LinkedHashMap
+            (order of insertion is maintained)
+
