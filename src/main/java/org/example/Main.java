@@ -3,6 +3,8 @@ package org.example;
 import org.example.genericlist.OurGenericList;
 import org.example.lists.ArrayListExamples;
 import org.example.lists.LinkedListExamples;
+import org.example.maps.MapExamples;
+import org.example.maps.TreeMapExamples;
 import org.example.queues.ArrayDequeExamples;
 import org.example.queues.PriorityQueueExamples;
 import org.example.queues.QueueExamples;
@@ -57,6 +59,12 @@ public class Main {
 
         System.out.println("---------------------------------- Tree Set ---------------------------------------------");
         TreeSetExamples treeSetExamples  = new TreeSetExamples();
+
+        System.out.println("------------------------------------- Map -----------------------------------------------");
+        MapExamples mapExamples  = new MapExamples();
+
+        System.out.println("---------------------------------- Tree Map ---------------------------------------------");
+        TreeMapExamples treeMapExamples  = new TreeMapExamples();
 
         System.out.println("Ending...");
     }
