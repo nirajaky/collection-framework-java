@@ -12,6 +12,7 @@ import org.example.queues.StackExample;
 import org.example.sets.HashSetsExamples;
 import org.example.sets.LinkedHashSetExamples;
 import org.example.sets.TreeSetExamples;
+import org.example.stringspool.StringPool;
 
 import java.util.Iterator;
 
@@ -67,5 +68,8 @@ public class Main {
         TreeMapExamples treeMapExamples  = new TreeMapExamples();
 
         System.out.println("Ending...");
+
+        System.out.println("---------------------------------- String Pool ------------------------------------------");
+        StringPool stringPool = new StringPool();
     }
 }
