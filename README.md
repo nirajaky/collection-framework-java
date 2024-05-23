@@ -13,6 +13,7 @@
 - Collection Interface has the following method ->
     * boolean containsAll(Collection<?> c)
     * boolean addAll(Collection<? extends E> c)
+    * bollean remove(Object o);
     * boolean removeAll(Collection<?> c)
     * boolean retainAll(Collection<?> c)
     * void clear()

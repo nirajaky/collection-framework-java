@@ -13,7 +13,7 @@ public class StackExample {
         stack.push(30);
 
         System.out.println("Stack : " + stack);
-        System.out.println("push() to Stack" + stack.push(40));
+        System.out.println("push() to Stack : " + stack.push(40));
 
         // peek() gives last element in case of Stack and gives First element in case of Queue
         System.out.println("Get peek() Last Element : " + stack.peek());

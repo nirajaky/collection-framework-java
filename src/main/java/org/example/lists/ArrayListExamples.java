@@ -66,7 +66,7 @@ public class ArrayListExamples {
         List<Integer> list2 = list1.subList(1,3);
         System.out.println("list2 : " + list2);
 
-        list2.set(0, 22);              // It will alter list1 as well, since list2 is shallow copy of list1
+        list2.set(0, 22);              // It will alter list2 as well as list1, since list2 is shallow copy of list1
         System.out.println(list1);
         System.out.println(list2);
 
