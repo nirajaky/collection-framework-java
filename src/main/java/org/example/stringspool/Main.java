@@ -31,6 +31,7 @@ class SingleTonClass {
 public class Main {
     public static void main(String[] args) {
 
+        String str = "ABC";
         SingleTonClass s = SingleTonClass.getSingletonClass();
     }
 }

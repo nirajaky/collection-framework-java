@@ -49,7 +49,7 @@ public class TreeSetExamples {
         System.out.println("Tree Set 1 : " + treeSets);
 
         // If we do not pass any Comparator, the default natural ordering happens
-        NavigableSet<Integer> set2 = new TreeSet<>();
+        NavigableSet<Integer> set2 = new TreeSet<>((a, b) -> b-a);
 
         set2.add(5);
         set2.add(9);
@@ -67,6 +67,28 @@ public class TreeSetExamples {
 
         System.out.println("Higher - 5 > " + set2.higher(5));
         System.out.println("Lower - 5 > " + set2.lower(5));
+
+//
+//        | Feature                     | HashSet  | LinkedHashSet   | TreeSet       |
+//        | --------------------------- | -------- | --------------- | ------------- |
+//        | Duplicate Allowed           | ❌        | ❌               | ❌             |
+//        | Ordering                    | No order | Insertion order | Sorted order  |
+//        | Internal DS                 | HashMap  | LinkedHashMap   | TreeMap       |
+//        | Performance                 | Fastest  | Slightly slower | Slowest       |
+//        | Sorting                     | ❌        | ❌               | ✅             |
+//        | Needs hashCode/equals       | ✅        | ✅               | ❌ Usually not |
+//        | Needs Comparable/Comparator | ❌        | ❌               | ✅             |
+
+
+//        Why TreeSet usually does NOT need hashCode() and equals()?
+//
+//        Because it checks duplicates using:
+//        compareTo()
+//        or
+//        Comparator.compare()
+//
+//        If comparison returns: 0 then TreeSet treats objects as duplicates.
+
 
     }
 }

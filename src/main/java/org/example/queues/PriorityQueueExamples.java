@@ -4,6 +4,7 @@ import org.example.queues.UserDefinedClass.MyCustomComparator;
 import org.example.queues.UserDefinedClass.StudentMarks;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class PriorityQueueExamples {
@@ -118,6 +119,21 @@ public class PriorityQueueExamples {
               4. Less priority (compareTo() )                        4. More priority (compare() )
 
          */
+
+        //     String descending order
+        System.out.println("Priority Queue with Strings:");
+        PriorityQueue<String> pqs = new PriorityQueue<>(Collections.reverseOrder());
+
+        pqs.offer("banana");
+        pqs.offer("poll");
+        pqs.offer("Apple");
+        pqs.offer("dog");
+
+        System.out.println(pqs.poll());
+        System.out.println(pqs.poll());
+        System.out.println(pqs.poll());
+        System.out.println(pqs.poll());
+
 
     }
 }
