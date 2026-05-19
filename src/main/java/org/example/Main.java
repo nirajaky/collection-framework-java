@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.genericlist.OurGenericList;
+import org.example.lambdaexpression.LambdaExpression;
 import org.example.lists.ArrayListExamples;
 import org.example.lists.LinkedListExamples;
 import org.example.maps.MapExamples;
@@ -71,5 +72,8 @@ public class Main {
 
         System.out.println("---------------------------------- String Pool ------------------------------------------");
         StringPool stringPool = new StringPool();
+
+        System.out.println("---------------------------------- Lambda Expression ------------------------------------------");
+        LambdaExpression LambdaExpression = new LambdaExpression();
     }
 }
