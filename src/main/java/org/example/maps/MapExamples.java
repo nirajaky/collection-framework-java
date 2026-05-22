@@ -52,5 +52,20 @@ public class MapExamples {
             System.out.println(key + " :- " + maps.get(key));
         }
 
+        System.out.println("Our Own HashMap --------------------");
+
+        OurMap<Integer, String> ourMap = new OurMap<>();
+        ourMap.put(1, "a");
+        ourMap.put(6, "Niraj");
+        ourMap.put(5, "absxd");
+        ourMap.put(3, "abc");
+        ourMap.put(5, "riddd");
+
+        System.out.println(ourMap.get(5));
+        System.out.println(ourMap.get(1));
+        System.out.println(ourMap.get(6));
+        System.out.println(ourMap.get(3));
+        System.out.println(ourMap.get(7));
+
     }
 }
