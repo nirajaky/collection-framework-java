@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="667fbcc0-132d-4489-b70f-dafa67d1dd7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/maps/OurMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/maps/MapExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/maps/MapExamples.java" afterDir="false" />
-    </list>
+    <list default="true" id="667fbcc0-132d-4489-b70f-dafa67d1dd7b" name="Changes" comment="Internal Working Of Map" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,6 +106,15 @@
       <option name="presentableId" value="Default" />
       <updated>1709570663915</updated>
     </task>
+    <task id="LOCAL-00001" summary="Internal Working Of Map">
+      <option name="closed" value="true" />
+      <created>1779459587893</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779459587893</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,5 +127,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Internal Working Of Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Internal Working Of Map" />
   </component>
 </project>
